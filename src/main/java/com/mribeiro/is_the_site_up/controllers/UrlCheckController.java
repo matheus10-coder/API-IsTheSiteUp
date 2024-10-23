@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 public class UrlCheckController {
 
-    private final String SITE_IS_UP = "Site is up!";
-    private final String SITE_IS_DOWN = "Site is down!";
-    private final String INCORRECT_URL = "URL is incorrect!";
+    private final String SITE_IS_UP = "Yay! Site is up!";
+    private final String SITE_IS_DOWN = "I am sorry, this site is down!";
+    private final String INCORRECT_URL = "Please, review: URL is incorrect!";
 
 
 
